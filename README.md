@@ -4,13 +4,13 @@
 
 ## cpp201708
 
-### Maximum Profit
+### 1.Maximum Profit
 - minv = R[0]
 - for j from 1 to n-1
     - maxv = max(maxv,R[j]-minv)
     - minv = min(R[j],minv)
 
-### Insertion Sort
+### 2.Insertion Sort
 
 ```cpp
 insertSort(A,N)
@@ -21,4 +21,19 @@ insertSort(A,N)
             A[j+1]=j
             j--
         A[j+1]=v
+```
+
+### 3.Bubble Sort
+
+```cpp
+bubbleSort(A,N)
+    flag=1
+    i=0
+    while flag
+        flag=0
+        for j N-1 to j-i
+            if A[j]< A[j-1]
+                swap(A[j],A[j-1])
+                flag=1
+    i++
 ```
