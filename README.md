@@ -37,3 +37,17 @@ bubbleSort(A,N)
                 flag=1
     i++
 ```
+
+### 4.Selection Sort
+
+```cpp
+selectionSort(A,N)
+    for i 0 to N-1
+      minIndex =i;
+      for j i to N-1
+        if A[j]< A[minIndex]
+            minIndex=j;
+      swap(A[i],A[minIndex])
+```
+
+
