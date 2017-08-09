@@ -50,4 +50,22 @@ selectionSort(A,N)
       swap(A[i],A[minIndex])
 ```
 
+### 5.Shell Sort
 
+```cpp
+insertionSort(A,n,g)
+    for i= g to n-1
+        v=A[i];
+        j=i-g;
+        while(j>=0 && A[j]>v)
+            A[j+g]=A[j];
+            j-=g;
+        A[j+g]=v;
+
+shellSort(A,n)
+    cnt=0
+    m=G.size
+    G[]={1,4,13,40,...3*h+1}
+    for i= m-1 to 0
+        insertionSort(A,n,G[i])
+```
